@@ -1,0 +1,2 @@
+# NASA_pic-of-the-day
+Created a one-page website displaying NASA's pic of the day. This has been done using the APOD API found on NASA API's official website : https://api.nasa.gov/
