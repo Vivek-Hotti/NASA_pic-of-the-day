@@ -20,7 +20,7 @@ async function sendApiRequest(){
 
 //function that does something with the data received from the API. The name of the function should be customized to whatever you are doing with the data
 function useApiData(data){
-    document.querySelector("#content").innerHTML = `<p>${data.explanation}</p>`;
+    document.querySelector("#content").innerHTML += data.explanation
     document.querySelector("#content").innerHTML += `<img src="${data.url}">`
 }
 
